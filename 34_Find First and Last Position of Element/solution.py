@@ -9,7 +9,7 @@ class Solution(object):
         right = self.binarySearch(nums,target,False)
         return [left,right]
 
-    
+    # leftBias = True/False. If False, res is rightBiased:
     def binarySearch(self,nums,target,leftBias):
         left = 0
         right = len(nums) - 1
